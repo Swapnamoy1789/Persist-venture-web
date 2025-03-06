@@ -3,7 +3,7 @@
 A **React-based** clone of the Persist Venture website. This project replicates the design and functionality of the original site using modern web technologies.
 
 ## 🚀 Live Demo
-🔗 [View Live Site](https://persist-venture-clone.vercel.app)
+🔗 [View Live Site](https://persist-website-ap1mut25l-swapnamoy-roy-choudhurys-projects.vercel.app/)
 
 ## 🛠️ Tech Stack
 - **React 19** - Frontend framework
