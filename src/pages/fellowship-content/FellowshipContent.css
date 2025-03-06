@@ -1,0 +1,27 @@
+.fellowship-content {
+  border: 1px solid #7a56d6;
+  text-align: center;
+  background-image: url("https://cdn.prod.website-files.com/623ae64/66b11fd_Untitled%20design%20(48).png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px 30px;
+  width: 80%;
+}
+.fellowship-content button {
+  border: 1px solid #7a56d6;
+  background-color: #7a56d6;
+  box-shadow: 0 2px 5px 0 #7a56d6;
+  border-radius: 8px;
+  align-self: center;
+  width: 250px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 9px 15px;
+}

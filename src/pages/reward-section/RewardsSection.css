@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #1a0b33, #0d021f);
+  color: white;
+  text-align: center;
+}
+
+/* Main Container */
+.rewards-container {
+  padding: 40px;
+}
+
+/* Title */
+.rewards-container h2 {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Grid Layout */
+.rewards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Card Styling */
+.reward-card {
+  background: #180d2a;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  box-shadow: 1px 1px 5px 1px #7a56d6b3;
+}
+
+/* Glowing Hover Effect */
+.reward-card:hover {
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.2);
+}
+
+/* Icons */
+.reward-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}

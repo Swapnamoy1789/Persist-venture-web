@@ -1,0 +1,30 @@
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+
+  /* Gradient background */
+  background: linear-gradient(to right, #7a56d6, #a58ae9, #efeafc, #7a56d6);
+  background-size: 200% auto;
+
+  /* Animation */
+  animation: background-pan 3s linear infinite;
+
+  /* Apply gradient to text */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  white-space: nowrap;
+  margin: 0;
+}
+
+/* Keyframes for moving the gradient */
+@keyframes background-pan {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}

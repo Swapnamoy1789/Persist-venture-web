@@ -1,0 +1,105 @@
+body {
+  background-color: #200a40;
+  color: white;
+  font-family: Arial, sans-serif;
+  /* text-align: center; */
+}
+
+.startupathon-container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.subheading {
+  font-size: 1rem;
+  color: #b6a8d9;
+  margin-bottom: 30px;
+}
+
+.startup-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.startup-card {
+  /* background: #2c205370; */
+  border: 2px solid #7a56d6;
+  border-radius: 15px;
+  width: 400px;
+  padding: 20px;
+  text-align: left !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.startup-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #e0d0ff;
+}
+
+.startup-card h2 span {
+  font-size: 1.5rem;
+}
+
+.profile-img {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.role {
+  font-size: 0.9rem;
+  color: #c5b3f7;
+}
+
+.description {
+  font-size: 0.9rem;
+  margin: 10px 0;
+  color: #eae1ff;
+}
+
+.funding {
+  font-size: 1rem;
+  color: #b7a0ff;
+  margin: 20px 0 10px 0;
+}
+
+.funding span {
+  font-weight: bold;
+  color: #61dafb;
+}
+
+.details-btn {
+  background-image: linear-gradient(
+    90deg,
+    #3f2d6d,
+    #7a56d6 33%,
+    #9077ce 66%,
+    #ffffff00
+  );
+  border: 1px solid #7a56d6;
+  background-color: #7a56d6;
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 9px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.details-btn:hover {
+  background-color: #9077ce;
+}
